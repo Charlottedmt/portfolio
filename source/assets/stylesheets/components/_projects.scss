@@ -1,0 +1,18 @@
+.container-projects {
+  max-width: 1000px;
+  text-align: center;
+  margin: 150px auto;
+}
+.card-projects {
+  display: flex;
+  align-items: center;
+  img {
+    width: 250px;
+  }
+}
+
+.description {
+  width: 60%;
+ background-color : white;
+ padding: 24px;
+}

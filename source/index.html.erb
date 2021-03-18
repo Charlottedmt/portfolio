@@ -1,7 +1,35 @@
-<div class="container mt-3">
-  <div class="row justify-content-center">
-    <div class="col">
-      <h1>Middleman Boilerplate</h1>
+<div class="container-header mt-3">
+  <div class="profile-picture">
+    <img src="<%= image_path 'Cha.png' %>" alt="sample4"/>
+  </div>
+  <div class="presentation">
+    <div class="row justify-content-center align-items-center">
+      <div class="col ">
+        <h1>Charlotte DEMARET</h1>
+        <h2> Full-stack developer </h2>
+        <p> Welcome on my portfolio.</p>
+        <p> Always enthusiastic, I'm also creative and love using logic to solve problems, that's why I started learning coding after 7 Years working in marketing. My previous experiences allowed me to work in team and made me both users and results oriented. </p>
+      </div>
     </div>
   </div>
+</div>
+
+<!-- Projects -->
+<div class="container-projects">
+  <h1> PROJECTS </h1>
+    <div class="card-projects">
+      <div class="device device-iphone-x">
+        <div class="device-frame">
+          <<%= image_tag "Food.PNG" %>
+        </div>
+        <div class="device-stripe"></div>
+        <!--<div class="device-header"></div>-->
+        <div class="device-sensors"></div>
+        <div class="device-btns"></div>
+        <div class="device-power"></div>
+      </div>
+      <div class="description">
+        <h1>FOOD ON RAILS</h1>
+      </div>
+    </div>
 </div>
