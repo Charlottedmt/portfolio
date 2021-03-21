@@ -10,7 +10,7 @@
 .section-1 {
   height: 100vh;
   background: rgb(17,60,55);
-background: linear-gradient(0deg, rgba(17,60,55,1) 13%, rgba(42,157,143,1) 73%);
+  background: linear-gradient(0deg, rgba(17,60,55,1) 13%, rgba(42,157,143,1) 73%);
 h2 {
     font-weight: 100;
     font-size: 16px;
@@ -21,6 +21,7 @@ h2 {
   height: 100vh;
   padding-top: 16px;
   text-align: center;
+  background-color: white;
 
 }
 
