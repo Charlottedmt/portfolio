@@ -1,43 +1,6 @@
-.presentation {
- width: 60%;
- background-color : white;
- margin: auto;
- padding: 24px;
- margin-top: 48px;
- box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
 
-.section-1 {
-  height: 100vh;
-  background: rgb(17,60,55);
-  background: linear-gradient(0deg, rgba(17,60,55,1) 13%, rgba(42,157,143,1) 73%);
-h2 {
-    font-weight: 100;
-    font-size: 16px;;
-  }
-}
 
-.section-2 {
-  height: 100vh;
-  padding-top: 16px;
-  text-align: center;
-  background-color: rgba(66, 228, 209, 0.1);
-  font-size: 20px;
-  h1 {
-    text-shadow: rgba(40, 40, 40, 0.3) 1px 1px 10px;
-  }
-}
-
-.section-3 {
-  height: 100vh;
-  padding-top: 100px;
-   background-color: rgba(191, 235, 230, 0.1);
-  h1 {
-    text-shadow: rgba(40, 40, 40, 0.3) 1px 1px 10px;
-  }
-}
-
-.tools {
-  font-size: 26px;
-  color: rgb(17,60,55);
+@media screen and (max-width: 768px) {
+    .section-1 { width:100%; }
+    .section-2{ width:100%; margin:0; border:none; }
 }
