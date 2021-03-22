@@ -2,10 +2,12 @@
   max-width: 1000px;
   text-align: center;
   margin: 50px auto;
+
 }
 .card-projects {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   img {
     width: 250px;
   }
@@ -13,6 +15,5 @@
 
 .description {
   width: 60%;
- background-color : white;
  padding: 24px;
 }
