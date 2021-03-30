@@ -20,6 +20,9 @@
 }
 
 .sidebar-frame {
-background-color:rgba(17,60,55,0.9);
+  background-color:rgba(17,60,55,0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 

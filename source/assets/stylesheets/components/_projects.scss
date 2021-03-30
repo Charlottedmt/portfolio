@@ -15,8 +15,8 @@
 }
 
 .description {
-  width: 60%;
- padding: 24px;
+  width: 80%;
+  padding: 24px;
 }
 
 .presentation {
@@ -69,15 +69,8 @@ h2 {
   color: rgb(17,60,55);
 }
 
-@media (max-width: 600px) {
-    .card-projects image { width:80px; }
-    .container-banner {
-      display: block;
-    }
-    .presentation {
-      width: 100%;
-    }
-    .card-projects {
-      display: block;
-    }
-}
+// @media (max-width: 600px) {
+//     .ml11 {
+//       display: none;
+//     }
+// }

@@ -33,3 +33,22 @@
   line-height: 1em;
   color: white;
 }
+
+@media (max-width: 600px) {
+    .card-projects image { width:80px; }
+    .container-banner {
+      display: block;
+    }
+    .presentation {
+      width: 100%;
+    }
+    .card-projects {
+      flex-direction: column;
+    }
+    .section-1, .section-2, .section-3 {
+      height: unset;
+    }
+    .ml11 {
+      display: none;
+    }
+}
