@@ -14,6 +14,7 @@ set :js_dir,     'assets/javascripts'
 
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
+activate :metaman, host: 'https://domain.com'
 
 activate :autoprefixer do |config|
   config.browsers = '>0.25%, not ie 11, not op_mini all, not dead'
@@ -41,3 +42,5 @@ configure :build do
   activate :minify_css
   activate :relative_assets
 end
+
+
