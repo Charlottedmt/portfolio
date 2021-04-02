@@ -1,5 +1,6 @@
 # General config
 # http://localhost:4567/__middleman
+activate :metaman, host: 'https://www.charlottedemaret.com'
 
 # Import custom libraries and helpers
 Dir['./*/*.rb'].each { |file| load file }
@@ -14,7 +15,7 @@ set :js_dir,     'assets/javascripts'
 
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
-activate :metaman, host: 'https://charlottedemaret.com'
+
 
 activate :autoprefixer do |config|
   config.browsers = '>0.25%, not ie 11, not op_mini all, not dead'
